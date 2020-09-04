@@ -1,13 +1,10 @@
 package com.mycompany.app;
 
-/**
- * Hello world!
- *
- */
+import java.time.LocalTime;
+
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main(String[] args) {
+        System.out.println("The local time is: " + LocalTime.now().toString());
     }
 }
